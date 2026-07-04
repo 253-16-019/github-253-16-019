@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background:#393d57;
+    color:white;
+
+}
+#logo{
+    height: 70%;
+    margin-left: 30px;
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#subject{
+    height: 30%;
+    width: 50%;
+    text-align: center;
+    margin-left: 200px;
+}
+#subject h1{
+    color: rgb(135, 238, 195);
+}
+.texts{
+    color: rgb(169, 148, 228);
+    padding: 10px;
+}
+#fakeheader{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(0, 5, 5);
+}
+#page1{
+    height: 65%;
+    width: 100%;
+    background-color: rgb(137, 168, 229);
+    display: flex;
+    background-image: url(https://img.freepik.com/free-vector/abstract-paper-cut-shape-wave-background_474888-4649.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: cover;
+    background-position: center;
+}
+.card{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    height: 300px;
+    width: 230px;
+    border: 1px solid salmon;
+}
+#card1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box{
+    width: 50%;
+    height: 100%;
+}
+
+#box1 h1{
+    margin-top: 9%;
+    margin-left: 15%;
+    color: rgb(212, 224, 34);
+}
+#moti h2{
+    margin-top: 30%;
+    margin-left: 20%;
+    color: rgb(166, 166, 243);
+    font-weight: lighter;
+}
+.details{
+    margin-top: 2%;
+    margin-left: 45%;
+    font-size: medium;
+    background-color: #4c4e5c54;
+}
+table{
+    margin-top: 5%;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: x-large;
+}
+.qualification{
+    background-color: rgba(97, 97, 97, 0.301);
+    margin: 20px;
+    padding: 20px;
+}
+
+.qualification h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#footer{
+    height: 25%;
+    width: 100%;
+    background:#a19999;
+    border: 2px solid rgb(37, 35, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
