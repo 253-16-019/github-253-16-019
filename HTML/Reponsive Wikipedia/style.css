@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    color: black;   
+    margin-left: 50px;
+    cursor: pointer;
+    padding: 10px;
+}
+.icon:hover{
+    background-color: rgb(212, 215, 218);
+    color: rgb(28, 88, 200);   
+}
+ i{
+    font-size: 20px;
+}
+#logo{
+    width: 200px;
+    height: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#logo h6{
+    color: black;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+#srcform{
+    display: flex;
+    margin-left: 50px;
+    border-radius: 2px;
+    width:100%;
+    max-width:550px;
+}
+
+#srcform input{
+    width: 453px;
+    height: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#srcform button{
+    color: rgba(60, 7, 193, 0.959);
+    font-weight: bold;
+    background: #dee1e4;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    
+}
+
+#srcform button:hover{
+    background: rgb(177, 173, 173);
+}
+
+#for_space{
+    margin-left: auto;
+}
+
+.text{
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color:rgb(101, 39, 244)
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(7, 7, 211);
+}
+
+#fakeheader {
+    height: 10vh;
+    width: 100%;
+    background-color: rgba(254, 253, 255, 0.895);
+}
+#page1{
+    width:100%;
+    min-height:100vh;
+    padding-left:62px;
+    padding-right: 62px;
+}
+.first_heading{
+    margin-top: 20px;
+    min-height: 5vh;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgba(139, 135, 135, 0.592);
+}
+.first_heading p{
+    padding-top: 22px ;
+    margin-right: 20px;
+}
+.first_heading u{
+    color: rgba(49, 29, 231, 0.882);
+    text-decoration: none;
+}
+.first_heading u:hover{
+    text-decoration: underline;
+}
+#second_heading{
+    margin-top: 20px;
+    min-height: 20vh;
+    border: 1px solid rgba(151, 144, 144, 0.538);
+    background-color: rgb(249, 249, 249);
+    text-align: center;
+}
+#Welcome{
+    margin-top: 20px;
+    font-size: xx-large;
+}
+#post{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.716);
+}
+
+.story{
+    display:flex;
+    gap:7px;
+    align-items:flex-start;
+    margin-top: 7px;
+}
+
+#box1,#box2{
+    width:50%;
+    color: black;
+    border: 1px solid rgba(151, 144, 144, 0.538);
+    background-color: rgb(249, 249, 249);
+    padding: 10px;
+}
+.title_1{
+    min-height: 5vh;
+    background-color: rgb(215, 233, 233);
+    padding: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.info-box{
+    gap: 15px;
+}
+.image img{
+    width: 30%;
+    float:right;
+    margin: 10px;
+}
+#one_image{
+    width: 50%;
+    float:left;
+    margin: 10px;
+}
+.content{
+    font-size: larger;
+    padding: 10px;
+    margin: 10px;
+}
+.feature{
+    padding: 20px;
+    margin-left: 10%;
+    color: rgb(90, 48, 216);
+    font-size: larger;
+}
+#back_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#back_image img{
+    min-width: 100%;
+    height: 270px;
+    object-fit: cover;
+    padding: 10px;
+}
+#page2 {
+    width:100%;
+    min-height:100vh;
+    padding-left:62px;
+    padding-right: 62px;
+}
+.story2{
+    margin-top: 20px;
+    min-height: 20vh;
+    border: 1px solid rgba(151, 144, 144, 0.538);
+    background-color: rgb(249, 249, 249);
+}
+
+#story2_image img{
+    float: right;
+    width: 15%;
+}
+.read{
+    margin-left: auto;
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+.footer-links{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    margin:20px;
+    flex-wrap:wrap;
+}
+
+.developer{
+    margin-left:auto;
+    background:#a6d0df;
+    padding:10px;
+}
+#searchIcon{
+    padding: 20px;
+    
+}
+#menu-toggle,
+#search-toggle{
+    display:none;
+}
+
+.menu-btn{
+    margin-left:50px;
+}
+
+.search-btn{
+    display:none;
+}
+
+.mobile-menu,
+.mobile-search{
+    display:none;
+}
