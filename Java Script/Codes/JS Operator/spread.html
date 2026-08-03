@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Assignments</h1>
+<h2>The Spread Operator</h2>
+<h3>The ... Operator</h3>
+
+<p id="demo"></p>
+
+<script>
+let text = "12345";
+let min = Math.min(...text);
+let max = Math.max(...text);
+
+document.getElementById("demo").innerHTML =
+"Minimum is: " + min + "<br> Maximum is: " + max;
+</script>
+
+</body>
+</html>
