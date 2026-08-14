@@ -1,0 +1,421 @@
+
+@media (max-width:1024px) {
+    #topheader {
+        margin-left: 20px;
+        font-size: large;
+    }
+    #login {
+        margin-left: auto;
+    }
+    #secondcolor {
+        font-size: medium;
+    }
+    #optiontext {
+        margin-left: auto;
+    }
+    #optiontext h2 {
+        margin-left: 20px;
+    }
+    .contacttext {
+        margin-left: auto;
+    }
+    #box h1 {
+        font-size: 50px;
+        width: auto;
+        padding: 10px 200px 5px 200px;
+    }
+    #box h4 {
+        width: auto;
+        padding: 2px 100px 5px 100px;
+        font-size: medium;
+    }
+    #btns{
+        gap: 8px;
+    }
+    #bigbox{
+        width: 88%;
+        left: 6%;
+    }
+    #topic1 h2{
+        margin: 25px;
+    }
+    #topic2 h2{
+        margin: 5px;
+        font-size: 40px;
+    }
+    #topic3{
+        gap: 10px;
+    }
+    .littlebox{
+        margin: auto;
+        padding: 10px;
+        width: auto;
+        height: auto;
+    }
+    #mediumbox{
+        top: 40%;
+    }
+    .log{
+        padding: 8px 20px;
+    }
+    #carouselExampleIndicators{
+        padding: 15px;
+    }
+    .card-title{
+        font-size: 20px;
+    }
+    #page4 {
+        padding: 60px 4%;
+    }
+
+    .dictionary {
+        width: 45%;
+        margin-bottom: 80px;
+    }
+
+    .dictionary h3 {
+        font-size: 28px;
+    }
+
+    .alumni-container {
+        gap: 18px;
+    }
+
+    .alumni-image {
+        height: 380px;
+    }
+
+    .alumni-content h2 {
+        font-size: 21px;
+    }
+
+    .alumni-content p {
+        font-size: 15px;
+    }
+    #page8{
+        border-radius: 60px 60px 0 0;
+    }
+
+}
+@media (max-width:768px) {
+    #main{
+        background-image: none;
+    }
+    #topheader{
+        
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin: 10px;
+        font-size: 15px;
+    }
+    #email,#phone,#login{
+        margin: 5px 0;
+    }
+    #header{
+        height: auto;
+        padding: 15px;
+    }
+    .logo{
+        margin: auto;
+    }
+    .logo img{
+        width: 160px;
+    }
+    #optiontext{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 15px 0;
+    }
+    #optiontext h2{
+        margin: 10px;
+        font-size: 16px;
+    }
+    .contacttext{
+        margin: auto;
+        padding: 4px;
+    }
+    #box h1{
+        font-size: 38px;
+        padding: 30px 50px 5px 50px;
+    }
+    #box h4{
+        font-size: 16px;
+        padding: 10px;
+    }
+    #btns{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #btn1,#btn2{
+        width: 250px;
+    }
+    #btn1 h2,#btn2 h2{
+        font-size: 24px;
+    }
+    #bigbox{
+        width: 95%;
+        left: 2.5%;
+        padding: 20px;
+    }
+    #topic1 h2{
+        font-size: 24px;
+        margin: 10px;
+    }
+    #topic2 h2{
+        font-size: 32px;
+    }
+    .littlebox{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .littlebox h2{
+        font-size: 20px;
+    }
+    #mediumbox{
+        width: 95%;
+        left: 2.5%;
+        top: 20%;
+        align-items: end;
+    }
+    #vcImg{
+        width: 90%;
+        justify-content: center;
+    }
+    #vcDetails{
+        width: 100%;
+        margin-top: 20px;
+    }
+    #wlcm{
+        font-size: 24px;
+        text-align: center;
+    }
+    #wlcmDetails{
+        font-size: 14px;
+        text-align: left;
+    }
+    .dictionary{
+        width: 80%;
+        left: 10%;
+    }
+    .card-group{
+        padding: 20px;
+    }
+    .carousel-inner img{
+        height: 350px;
+    }
+    .gallery-img{
+        height: 180px;
+    }
+    .log{
+        margin: 5px;
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+    #firstcolor,#secondcolor{
+        padding: 8px 20px;
+    }
+    #vcImg img{
+        width: 100%;
+    }
+    #carouselExampleIndicators{
+        padding: 10px;
+    }
+    .card-title{
+        font-size: 18px;
+    }
+    .event-box{
+        padding: 15px;
+    }
+    .social-btn{
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+    #page4 {
+        padding: 50px 5%;
+    }
+    .dictionary {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .dictionary h3 {
+        font-size: 25px;
+    }
+    .alumni-container {
+        gap: 10px;
+    }
+    .alumni-image {
+        height: auto;
+    }
+    .alumni-image img {
+        height: auto;
+        max-height: 500px;
+        object-fit: contain;
+    }
+    .alumni-content h2 {
+        font-size: 18px;
+    }
+    .alumni-content p {
+        font-size: 10px;
+    }
+    .see-all {
+        margin-top: 20px;
+    }
+    #page8{
+        border-radius: 40px 40px 0 0;
+    }
+}
+@media (max-width:400px) {
+    #topheader{
+        font-size: 13px;
+        text-align: center;
+    }
+    #email,#phone{
+        display: none;
+    }
+    #login{
+        gap: 20px;
+    }
+    #header{
+        flex-direction: column;
+        padding: 10px;
+    }
+    #logo2{
+        width: 25%;
+        object-fit: contain;
+    }
+    .logo img{
+        width: 140px;
+    }
+    #optiontext{
+        align-items: center;
+    }
+    #optiontext h2{
+        margin: 6px;
+        font-size: 16px;
+    }
+    .contacttext h2{
+        font-size: 15px;
+    }
+    #box h1{
+        font-size: 28px;
+        padding: 15px;
+    }
+    #box h4{
+        font-size: 14px;
+        padding: 10px;
+    }
+    #btn1,#btn2{
+        width: 90%;
+        height: 50px;
+    }
+    #btn1 h2,#btn2 h2{
+        font-size: 20px;
+    }
+    #bigbox{
+        width: 98%;
+        left: 1%;
+        padding: 15px;
+    }
+    #topic1 h2{
+        font-size: 18px;
+    }
+    #topic2 h2{
+        font-size: 24px;
+    }
+    .littlebox{
+        padding: 15px;
+    }
+    .littlebox h2{
+        font-size: 15px;
+    }
+    .littlebox p{
+        font-size: 10px;
+    }
+    #mediumbox{
+        width: 98%;
+        left: 1%;
+    }
+    #vcImg{
+        width: 50%;
+        object-fit: contain;
+    }
+    #wlcm{
+        font-size: 20px;
+    }
+    #wlcmDetails{
+        font-size: 12px;
+    }
+    .card-group{
+        padding: 5px;
+    }
+    .carousel-inner img{
+        height: 220px;
+    }
+    .gallery-img{
+        height: 150px;
+    }
+    .contact-box,.form-box{
+        padding: 5px;
+    }
+    .contact-box h4, .form-box h4{
+        font-size: 10px;
+    }
+    .log{
+        margin: 4px auto;
+        padding: 6px 15px;
+        font-size: 13px;
+    }
+    #firstcolor, #secondcolor{
+        padding: 6px 15px;
+    }
+    #carouselExampleIndicators{
+        padding: 5px;
+    }
+    .card-title{
+        font-size: 16px;
+    }
+    .event-box{
+        padding: 12px;
+    }
+    .event-box h5{
+        font-size: 16px;
+    }
+    .social-btn{
+        padding: 5px 10px;
+        font-size: 12px;
+        margin: 3px 3px 0 0;
+    }
+    .form-control{
+        font-size: 14px;
+    }
+    #page4 {
+        padding: 40px 15px;
+    }
+    .dictionary {
+        width: 95%;
+        margin-bottom: 40px;
+    }
+    .dictionary h3 {
+        font-size: 21px;
+        padding: 10px;
+    }
+    .alumni-content {
+        padding: 5px;
+    }
+    .alumni-content h2 {
+        font-size: 10px;
+    }
+    .alumni-content p {
+        font-size: 9px;
+        line-height: 1.6;
+    }
+    .alumni-footer {
+        margin: 0 15px;
+        font-size: 13px;
+    }
+    #page8{
+        border-radius: 25px 25px 0 0;
+    }
+}
